@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--main-BG);
+}
+
+.card {
+  position: relative;
+  width: 450px;
+  background-color: var(--card-BG);
+  color: var(--softBlue);
+  padding: 1.563em;
+  border-radius: 5%;
+  font-weight: 300;
+  line-height: 1.625em;
+  margin: 50px auto;
+}
+
+.card h2 {
+  font-weight: 600;
+  color: var(--white);
+  font-size: 1.375em;
+  line-height: 1.75em;
+  margin: 20px 0 10px 0;
+}
+
+.card h2:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.equil-img {
+  width: 100%;
+  position: relative;
+  border-radius: 2%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  margin: 15px 0;
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 20px;
+}
+
+.time,
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.time img,
+.price img {
+  margin-right: 0.5rem;
+}
+
+.price div:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.img-overlay {
+  background-color: cyan;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 25px;
+  left: 25px;
+  border-radius: 2%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-overlay img {
+  justify-content: center;
+}
+
+.img-overlay:hover {
+  opacity: 0.6;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+}
+
+.creator img {
+  width: 50px;
+  margin-right: 20px;
+  border: 2px solid var(--white);
+  border-radius: 100%;
+}
+
+.creator span {
+  color: var(--white);
+}
+
+.creator span:hover {
+  color: var(--cyan);
+}
