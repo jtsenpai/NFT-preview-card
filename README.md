@@ -56,6 +56,6 @@ Now that I have grasped the concept of flexbox. I need to understand CSS Grid an
 
 ## Author
 
-- Linkedin - [Add your name here](https://www.linkedin.com/in/jesutoni-odufeso-25b1b9223)
+- Linkedin - [Jesutoni Odufeso](https://www.linkedin.com/in/jesutoni-odufeso-25b1b9223)
 - Frontend Mentor - [@jtsenpai](https://www.frontendmentor.io/profile/jtsenpai)
 - Twitter - [@jtsenpai002](https://twitter.com/jtsenpai002)
