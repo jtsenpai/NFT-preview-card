@@ -35,7 +35,7 @@ Picture of the solution
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github repo](https://github.com/jtsenpai/NFT-preview-card)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
